@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 45rem;
+    position: relative;
+    width: max-content;
+}
+
+.nav-items {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.nav-items:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.input {
+    width: 30rem;  
+    font-size: 0.9rem; 
+    border-radius: 1.5rem;
+}
+
+.inputdiv {
+    position: relative;
+}
+
+.srcicon {
+    position: absolute;
+    top: 1.6rem;
+    right: 28.4rem;
+}
+
+.simages {
+    color: #4285f4;
+    position: absolute;
+    right: 7.9rem;
+    top: 20.9rem;
+}
+
+.asearch {
+    color: #d93025;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.search-div-form {
+    width: 80%;
+}
+
+.advanced-btn {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: max-content;
+    border-radius: 2px;
+    padding: 0 0.4rem;
+}
+
+.left {
+    width: 60%;
+    min-width: 40%
+}
+
+.left small {
+    
+    width: 11rem;
+    flex-shrink: 0;
+}
+
+.right {
+    width: 40%;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.asearch-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    margin-left: 0;
+    white-space: nowrap;
+}
+
+.asearch-inputs input {
+    height: 1.7rem;
+    width: 30rem;
+}
+
+.right small {
+    font-size: 0.7rem;;
+}
+
+@media only screen and (max-width: 1600px) {
+    .left {
+        width: 70%;
+
+    }
+    .right {
+        display: none;
+    }
+  }
