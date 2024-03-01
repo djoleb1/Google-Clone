@@ -12,21 +12,21 @@
                 <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="google logo">
             </div>
             <nav class="navbar navbar-expand-lg d-flex justify-content-end gap-3">
-                <a href="index.html" class="nav-items">Home Page</a>
-                <a href="images.html" class="nav-items">Image Search</a>
+                <a href="index.html" class="text-dark text-decoration-none"><small>Home Page</small></a>
+                <a href="images.html" class="text-dark text-decoration-none"><small>Image Search</small></a>
                 <span class="material-symbols-outlined">apps</span>
                 <span class="material-symbols-outlined">account_circle</span>
             </nav>
         </header>
         
         <div class="asearch-div my-4 border-bottom">
-            <label class="asearch mx-5 mb-4">Advanced search</label>
+            <label class="asearch mx-5 mb-4 text-danger">Advanced search</label>
         </div>
 
         <div class="search-div m-5">
-            <form action="https://www.google.com/search" method="get" class="search-div-form d-flex">
+            <form action="https://www.google.com/search" method="get" class="search-div-form d-flex w-75">
 
-                <div class="left d-flex flex-column gap-2">
+                <div class="left d-flex flex-column gap-2 container">
                     <div class="d-flex">
                         <p class="mb-5">Find pages with...</p>
                     </div>
@@ -57,7 +57,7 @@
                     
                 </div>
 
-                <div class="right px-2">
+                <div class="right px-2 d-none d-lg-block">
                     <p class="mb-5">Do this in the search box</p>
 
                     <div class="instructions d-flex flex-column mt-1">
@@ -70,7 +70,6 @@
                         <small class="my-2">Put a minus sign right in front of the words you don't want: -rodent, -"Jack Russell"</small>
                     </div>
                     
-
                 </div>
 
                 
@@ -78,6 +77,5 @@
             </form>
         </div>
 
-        
     </body>
 </html>
